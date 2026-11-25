@@ -73,3 +73,4 @@ export default function BookKeep(){
 			if(field==="totalPages"){
 				const t=num(value,1);
 				return{...b,totalPages:t,pagesRead:Math.min(b.pagesRead,t)};
+                
